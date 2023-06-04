@@ -12,36 +12,18 @@ Get started by **creating an account**.
 
 To begin using the **Huduma SMS API**,**[ sign up] at (https://hudumasms.com)**, and obtain your API token. This token will serve as your authentication key for making API calls. Once you have your API token/
 
-### What you'll need
+## What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+To start using the HudumaSMS APIs, you'll need the following:
 
-## Generate a new site
+1. **HudumaSMS Active Account**: Sign up for an account at [hudumasms.com](https://www.hudumasms.com) if you haven't already. A valid and active account is required to access the API functionalities.
 
-Generate a new Docusaurus site using the **classic template**.
+2. **API Token**: Obtain your unique API token from your account settings on the HudumaSMS platform. This token will serve as your authentication key for making API calls.
 
-The classic template will automatically be added to your project after you run the command:
+3. **Programming Language and Environment**: Choose a programming language and set up the necessary development environment.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+4. **HTTP Client**: You will need an HTTP client to send requests to the HudumaSMS API endpoints. Popular HTTP clients include cURL, Postman, and various programming language-specific libraries (e.g., `fetch, axios ` for Javascript or  `requests` library in Python).
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Feel free to explore the documentation for specific API endpoints, guides, and code examples to assist you further in integrating the HudumaSMS APIs into your applications.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Now you have everything you need to get started with the HudumaSMS APIs! Happy coding!
