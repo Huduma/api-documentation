@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/MegaJoint/api-documentation/tree/master',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/MegaJoint/api-documentation/tree/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -76,7 +76,7 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'}
+          /**{to: '/blog', label: 'Blog', position: 'left'} */
         ],
       },
       footer: {
@@ -90,8 +90,8 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label:'Intergration',
-                to: "/docs/category/Intergration",
+                label:'Messages',
+                to: "/docs/category/Messages",
               }
             ],
           },
@@ -109,11 +109,15 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Quick links',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Contacts',
+                to: '/docs/category/contacts',
+              },
+              {
+                label: 'Order SMS',
+                to: '/docs/Getting started/order-sms',
               },
             ],
           },

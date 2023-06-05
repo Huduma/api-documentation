@@ -13,6 +13,6 @@ Before starting to send messages using our API, please ensure that you have orde
 5. Enter the amount and approve the payment. The payee name will appear as **HUDUMASMS**.
 6. Your order will be processed and pending approval.
 
-If you have any questions or need assistance with the ordering process, please feel free to reach out to us at contact@hudumasms.com or call us at **+254 766 298 542** or **+254 712 500 282**. Our team will be happy to assist you.
+If you have any questions or need assistance with the ordering process, please feel free to reach out to us at contact@hudumasms.com or call us at **+255 766 298 542** or **+255 712 500 282**. Our team will be happy to assist you.
 
 Once your order is approved, you'll be ready to send messages using our API. Thank you for choosing HudumaSMS!
