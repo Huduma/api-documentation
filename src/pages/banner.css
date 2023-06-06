@@ -16,7 +16,7 @@
 }
 .landing-left {
     display: inline-flex;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .landing-icon {
     width: 50px;
@@ -50,8 +50,8 @@
     background-color:var(--bg1);
 }
 .landing-banner-left {
-    width: 80%;
-    margin-left:10%
+    width: 90%;
+    margin-left:5%
 }
 .landing-banner-right {
     width: 80%;
@@ -74,8 +74,8 @@
     font-weight: bold;
     color: aliceblue;
     padding: 10px 25px 12px 25px;
-    font-size:20px;
-    margin:40px 10px 20px 20px;
+    font-size:14px;
+    margin:40px 5px 20px 20px;
     cursor: pointer;
     border-radius: 26px;
     transition: .3s linear;
@@ -85,8 +85,8 @@
     font-weight: bold;
     color: var(--text-color);
     padding: 10px 25px 12px 25px;
-    font-size:20px;
-    margin:40px 20px 20px 20px;
+    font-size:14px;
+    margin:40px 0px 20px 20px;
     cursor: pointer;
     border-radius: 26px;
     transition: .3s linear;
@@ -171,5 +171,11 @@
     }
     .landing-right {
         margin-right: 10%;
+    }
+    .action-button {
+        font-size: 20px;
+    }
+    .action-button2 {
+        font-size: 20px;
     }
 }
