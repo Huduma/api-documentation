@@ -12,4 +12,4 @@ Before utilizing the **HudumaSMS API**, please ensure that you have created a **
 
 ## Default sender ID
 
-If you haven't yet received approval for your requested sender ID, you can still start using **HUDUMASMS** as the default sender ID in the meantime. This allows you to begin sending messages through the HudumaSMS API while your custom sender ID is being reviewed and approved.
+If you haven't yet received approval for your requested sender ID, you can still start using **INFO** or  **HUDUMASMS** as the default sender ID in the meantime. This allows you to begin sending messages through the HudumaSMS API while your custom sender ID is being reviewed and approved.
