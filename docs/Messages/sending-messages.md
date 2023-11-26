@@ -34,6 +34,7 @@ const token = `Your token from profile page`
 // Define the payload for the API request
 const payload = {
   sender_id: 2,
+  schedule:"none",
   sms: "Hello",
   recipients: [{ number: 255712500282 }, { number: 255766296543 }]
 };
