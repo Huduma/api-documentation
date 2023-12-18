@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 const deleteContact = async (contact_id) => {
   try {
     const contact_id = 1
-    const response = await fetch('https://dev.hudumasms.com/api/contacts/delete/' + contact_id, {
+    const response = await fetch('hhttps://api.hudumasms.com/v2/contacts/delete/' + contact_id, {
       method: 'DELETE',
       headers: {
         'Authorization': 'Bearer ' + token
@@ -42,7 +42,7 @@ const deleteContact = async (contact_id) => {
 
 ```php
 function deleteContact($contact_id, $token) {
-    $url = 'https://dev.hudumasms.com/api/contacts/delete/' . $contact_id;
+    $url = 'hhttps://api.hudumasms.com/v2/contacts/delete/' . $contact_id;
 
     $headers = array(
         'Authorization: Bearer ' . $token,
@@ -87,7 +87,7 @@ import java.net.URL;
 public class ContactDeletion {
 
     public static void deleteContact(String contactId, String token) throws IOException {
-        String url = "https://dev.hudumasms.com/api/contacts/delete/" + contactId;
+        String url = "hhttps://api.hudumasms.com/v2/contacts/delete/" + contactId;
 
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();

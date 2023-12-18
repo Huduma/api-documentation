@@ -5,7 +5,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # Create contact
-**Introduction**: The following code snippet illustrates how to integrate the HudumaSMS API into your application to add a new contact. By making a `POST` request to the designated API endpoint (`https://dev.hudumasms.com/api/contacts/create`), you can securely send the contact's name, phone number, and email as JSON in the request body. This code demonstrates the necessary steps and headers, including authentication with a bearer token, to successfully add a contact to the HudumaSMS system.
+**Introduction**: The following code snippet illustrates how to integrate the HudumaSMS API into your application to add a new contact. By making a `POST` request to the designated API endpoint (`hhttps://api.hudumasms.com/v2/contacts/create`), you can securely send the contact's name, phone number, and email as JSON in the request body. This code demonstrates the necessary steps and headers, including authentication with a bearer token, to successfully add a contact to the HudumaSMS system.
 
 <Tabs>
 <TabItem value="javascript" label="Javascript">
@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 const saveContact = async () => {
   try {
     // Send a POST request to the API endpoint for creating contacts
-    const response = await fetch('https://dev.hudumasms.com/api/contacts/create', {
+    const response = await fetch('hhttps://api.hudumasms.com/v2/contacts/create', {
       method: 'POST',
       body: JSON.stringify({
         names: name,
@@ -54,7 +54,7 @@ Certainly! Here's a  PHP code snippet for adding a new contact to the HudumaSMS 
 ```php
 <?php
 // API endpoint URL
-$url = 'https://dev.hudumasms.com/api/contacts/create';
+$url = 'hhttps://api.hudumasms.com/v2/contacts/create';
 
 // Data to send in the request body
 $data = array(
@@ -94,7 +94,7 @@ if (isset($responseData['success']) && $responseData['success']) {
 ?>
 ```
 
-In this simplified version, we use the `file_get_contents` function along with a stream context to send a `POST` request to the specified API endpoint (`https://dev.hudumasms.com/api/contacts/create`). The request body is set as JSON using `json_encode`, and the necessary headers are included in the context options. After receiving the response, we decode the JSON and check if the request was successful. If successful, we display a success message. Otherwise, we handle the error response by displaying the corresponding error message.
+In this simplified version, we use the `file_get_contents` function along with a stream context to send a `POST` request to the specified API endpoint (`hhttps://api.hudumasms.com/v2/contacts/create`). The request body is set as JSON using `json_encode`, and the necessary headers are included in the context options. After receiving the response, we decode the JSON and check if the request was successful. If successful, we display a success message. Otherwise, we handle the error response by displaying the corresponding error message.
 
 Please note that this simplified version uses the `file_get_contents` function, which requires the `allow_url_fopen` setting to be enabled on your server.
 
@@ -115,7 +115,7 @@ public class AddContactExample {
 
     public static void main(String[] args) {
         // API endpoint URL
-        String apiUrl = "https://dev.hudumasms.com/api/contacts/create";
+        String apiUrl = "hhttps://api.hudumasms.com/v2/contacts/create";
 
         // Request body data
         String requestBody = "{\"names\": \"John Doe\", \"number\": \"123456789\", \"email\": \"johndoe@example.com\"}";

@@ -8,7 +8,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="javascript" label="Javascript">
-Assume we have a function called `selectFileUpload` this function allows you to upload a contacts file to the HudumaSMS API. This code snippet demonstrates how to send a POST request to the API endpoint `'https://dev.hudumasms.com/api/contacts/upload-file'` using JavaScript. The function accepts a `selectedFile` parameter, which represents the file to be uploaded. It creates a FormData object and appends the file to it. The request includes the necessary authorization token in the headers.
+Assume we have a function called `selectFileUpload` this function allows you to upload a contacts file to the HudumaSMS API. This code snippet demonstrates how to send a POST request to the API endpoint `'hhttps://api.hudumasms.com/v2/contacts/upload-file'` using JavaScript. The function accepts a `selectedFile` parameter, which represents the file to be uploaded. It creates a FormData object and appends the file to it. The request includes the necessary authorization token in the headers.
 
 ```js
 
@@ -17,7 +17,7 @@ const selectFileUpload = async (selectedFile) => {
     const formData = new FormData()
     formData.append('contacts', selectedFile) //this can be from html tag <input type="file" />
 
-    const apiUrl = 'https://dev.hudumasms.com/api/contacts/upload-file'
+    const apiUrl = 'hhttps://api.hudumasms.com/v2/contacts/upload-file'
     const token = 'Your token from profile page'
 
     const response = await fetch(apiUrl, {
@@ -57,7 +57,7 @@ function selectFileUpload($selectedFile)
         $formData = new FormData();
         $formData->append('contacts', $selectedFile); // This can be obtained from the HTML input tag <input type="file" />
 
-        $apiUrl = 'https://dev.hudumasms.com/api/contacts/upload-file';
+        $apiUrl = 'hhttps://api.hudumasms.com/v2/contacts/upload-file';
         $token = 'Your token from profile page';
 
         $headers = [
@@ -106,7 +106,7 @@ import java.net.URL;
 public class FileUploader {
     public static void selectFileUpload(File selectedFile) {
         try {
-            String apiUrl = "https://dev.hudumasms.com/api/contacts/upload-file";
+            String apiUrl = "hhttps://api.hudumasms.com/v2/contacts/upload-file";
             String token = "Your token from profile page";
 
             HttpURLConnection connection = (HttpURLConnection) new URL(apiUrl).openConnection();

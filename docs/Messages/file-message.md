@@ -20,7 +20,7 @@ const sendFileMessage = async() => {
     formData.append('sender_id', 1)  //see the ID of the sender-ID on system dashboard
     formData.append('message', "Hello")
 
-    const response = await fetch('https://dev.hudumasms.com/api/smses/file/send', {
+    const response = await fetch('hhttps://api.hudumasms.com/v2/smses/file/send', {
       method: 'POST',
       body: formData,
       headers: {
@@ -64,7 +64,7 @@ const sendFileMessage = async() => {
 
 <?php
 // Set up the API endpoint URL
-$apiUrl = 'https://dev.hudumasms.com/api/smses/file/send';
+$apiUrl = 'hhttps://api.hudumasms.com/v2/smses/file/send';
 
 // Set the request parameters
 $contactsFile = $_FILES['contacts'];
@@ -128,7 +128,7 @@ import java.net.URL;
 
 public class FileMessageSender {
     public static void main(String[] args) {
-        String apiUrl = "https://dev.hudumasms.com/api/smses/file/send";
+        String apiUrl = "hhttps://api.hudumasms.com/v2/smses/file/send";
         String token = "Your token from profile page";
 
         try {

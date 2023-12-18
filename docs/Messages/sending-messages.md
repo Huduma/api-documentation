@@ -28,7 +28,7 @@ By following these guidelines, you can effectively interact with the API and int
 
   ```javascript
 // Set up the API endpoint URL
-const apiUrl = `https://dev.hudumasms.com/api/send-sms`
+const apiUrl = `hhttps://api.hudumasms.com/v2/send-sms`
 const token = `Your token from profile page`
 
 // Define the payload for the API request
@@ -69,7 +69,7 @@ After making the request, the code handles the response by checking if it is suc
 
 ```php
 <?php
-$url = 'https://dev.hudumasms.com/api/send-sms';
+$url = 'hhttps://api.hudumasms.com/v2/send-sms';
 $token = 'YOUR_API_TOKEN';
 
 $data = array(
@@ -132,7 +132,7 @@ import java.net.URL;
 public class HudumaSMSApiClient {
 
     public static void main(String[] args) {
-        String apiUrl = "https://dev.hudumasms.com/api/send-sms";
+        String apiUrl = "hhttps://api.hudumasms.com/v2/send-sms";
         String apiToken = "YOUR_API_TOKEN";
 
         String payload = "{\"sender_id\": 2, \"sms\": \"Hello\", \"recipients\": [{\"number\": \"255712500282\"}, {\"number\": \"255766296543\"}]}";

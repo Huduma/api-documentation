@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
 <TabItem value="javascript" label="Javascript">
 
-Assume we have created a function called `saveContactChanges` function is an asynchronous function that is used to update the changes made to a contact in the system. It makes a PUT request to the specified API endpoint (`https://dev.hudumasms.com/api/contacts/update/{contact_id}`) with the updated contact details.
+Assume we have created a function called `saveContactChanges` function is an asynchronous function that is used to update the changes made to a contact in the system. It makes a PUT request to the specified API endpoint (`hhttps://api.hudumasms.com/v2/contacts/update/{contact_id}`) with the updated contact details.
 
 Here's a breakdown of the code inside the function:
 - It  assigns contact ID  it to the `contact_id` variable.
@@ -26,7 +26,7 @@ Here's a breakdown of the code inside the function:
 const saveContactChanges = async () => {
   try {
     const  id = 3
-    const response = await fetch('https://dev.hudumasms.com/api/contacts/update/' + contact_id, {
+    const response = await fetch('hhttps://api.hudumasms.com/v2/contacts/update/' + contact_id, {
       method: 'PUT',
       body: JSON.stringify({
         names: 'Joseph',
@@ -65,7 +65,7 @@ function saveContactChanges() {
   // Code for saving contact changes
 
   // API endpoint URL
-  $url = 'https://dev.hudumasms.com/api/contacts/update/' . $contact_id;
+  $url = 'hhttps://api.hudumasms.com/v2/contacts/update/' . $contact_id;
 
   // Request data
   $data = array(
@@ -141,7 +141,7 @@ public class ContactUpdater {
     public static void saveContactChanges() {
         try {
             // API endpoint URL
-            String apiUrl = "https://dev.hudumasms.com/api/contacts/update/" + contactId;
+            String apiUrl = "hhttps://api.hudumasms.com/v2/contacts/update/" + contactId;
 
             // Request data
             String requestData = "{\"names\":\"" + name + "\",\"number\":" + phone + ",\"email\":\"" + email + "\"}";
